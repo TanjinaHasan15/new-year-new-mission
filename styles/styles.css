@@ -42,27 +42,6 @@ header .container .header .header-titles h2{
     line-height: 95px;
 }
 
-/* .banner{
-    color: white;
-    word-wrap: break-word;
-    font-family: Merriweather;
-    text-align: center;
-    padding: 190px 344px 177px 344px;
-    
-}
-
-.header-subtitle{
-    font-size: 32px;
-    font-weight: 400;
-    margin: 0px 0px 10px 0px;
-}
-
-.header-title{
-    font-size: 72px;
-    font-weight: 900;
-    margin-top: 0px;
-} */
-
 .discount-categories{
     margin-top: 120px;
     display: block;
@@ -84,10 +63,104 @@ header .container .header .header-titles h2{
     font-weight: 500;
     margin: 0px 0px 16px 0px;
 }
-
+/* party section */
 .content{
     color: #070211;
     font-size: 48px;
     font-weight: 700;
     margin: 0px 0px 48px 0px;
+}
+
+main .party {
+    width: 1320px;
+    height: 600px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../resources/Vectorrr.png");
+    margin: 120px auto;
+    display: flex;
+    align-items: center;
+}
+
+main .party .container .party-section {
+    text-align: left;
+}
+
+main .party .container .party-section h2 {
+    width: 642px;
+    color: #FFF;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+}
+
+main .party .container .party-section p {
+    width: 697px;
+    color: rgba(255, 255, 255, 0.80);
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+main .party .container .party-section button {
+    padding: 16px 32px;
+    align-items: center;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: none;
+}
+main .event {
+    width: 1320px;
+    height: 482px;
+    flex-shrink: 0;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    margin: 120px auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+main .event .container .event-venue p {
+    color: #070211;
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+}
+
+main .event .container .event-venue p .venue-head {
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+}
+
+main .event .container .event-venue button {
+    padding: 16px 32px;
+    border-radius: 8px;
+    background: #F00;
+    border: #F00;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    margin: 64px 0px 64px 0px;
 }
