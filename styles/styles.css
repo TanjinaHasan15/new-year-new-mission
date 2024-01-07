@@ -1,0 +1,93 @@
+body{
+    margin: 0 140px;
+}
+
+.container{
+    width: 83%;
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+header{
+    width: 1320px;
+    height: 600px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background:linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url(../resources/Banner\ Image.png);
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+   
+}
+header .container .header .header-titles{
+    text-align: center;
+    width: fit-content;
+    margin: auto;
+}
+
+header .container .header .header-titles h4 {
+    color: #fff;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+header .container .header .header-titles h2{
+    width: 632px;
+    color: #fff;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 95px;
+}
+
+/* .banner{
+    color: white;
+    word-wrap: break-word;
+    font-family: Merriweather;
+    text-align: center;
+    padding: 190px 344px 177px 344px;
+    
+}
+
+.header-subtitle{
+    font-size: 32px;
+    font-weight: 400;
+    margin: 0px 0px 10px 0px;
+}
+
+.header-title{
+    font-size: 72px;
+    font-weight: 900;
+    margin-top: 0px;
+} */
+
+.discount-categories{
+    margin-top: 120px;
+    display: block;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    word-wrap: break-word
+}
+
+.discount-title{
+    color: #FF0000;
+    font-size: 88px;
+    font-weight: 700;
+    margin: 0px 0px 48px 0px;
+}
+
+.discount-subtitle{
+    color: #FF0000;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0px 0px 16px 0px;
+}
+
+.content{
+    color: #070211;
+    font-size: 48px;
+    font-weight: 700;
+    margin: 0px 0px 48px 0px;
+}
