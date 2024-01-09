@@ -84,6 +84,7 @@ main .party {
 
 main .party .container .party-section {
     text-align: left;
+    
 }
 
 main .party .container .party-section h2 {
@@ -104,6 +105,7 @@ main .party .container .party-section p {
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
+   
 }
 
 main .party .container .party-section button {
@@ -117,7 +119,7 @@ main .party .container .party-section button {
     font-weight: 700;
     line-height: normal;
     text-transform: uppercase;
-    background-color: transparent;
+    background-color:#F00;
     border: none;
 }
 main .event {
